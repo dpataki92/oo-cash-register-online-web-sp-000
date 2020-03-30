@@ -34,7 +34,6 @@ class CashRegister
    else
      @total -= @item_prices[@item_prices-1]
      @item_prices.pop
-     @total
  end
 
 end
